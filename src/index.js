@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 
 function PageLayout({ header, footer, children }) {
   return (
-    <>
+    <div>
       {header}
       {children}
       {footer}
-    </>
+    </div>
   );
 }
 
