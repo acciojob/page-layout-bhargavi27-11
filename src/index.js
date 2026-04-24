@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 function PageLayout({ header, footer, children }) {
   return (
     <>
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer>{footer}</footer>
+      {header}
+      {children}
+      {footer}
     </>
   );
 }
