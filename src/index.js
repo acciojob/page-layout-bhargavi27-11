@@ -7,7 +7,7 @@ function PageLayout({ header, footer, children }) {
       <header>{header}</header>
       <main>{children}</main>
       <footer>{footer}</footer>
-    <>
+    </>
   );
 }
 
