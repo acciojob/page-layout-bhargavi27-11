@@ -1,6 +1,4 @@
-import { Children } from "react"
-
-const PageLayout = ({ header, footer, children}) => {
+const PageLayout = ({ header, footer, children }) => {
     return (
         <div>
             {header}
@@ -10,4 +8,4 @@ const PageLayout = ({ header, footer, children}) => {
     );
 };
 
-export default pageLayout;
+export default PageLayout;
